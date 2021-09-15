@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { Link as LinkFooter } from "react-router-dom";
 import { Link as LinkSocial } from "react-router-dom";
 import { Link as LinkLogoFooter } from "react-router-dom";
+import { Link as LinkHref } from "react-router-dom";
 import { HashLink as LinkInpage } from "react-router-hash-link";
 
 export const FooterContainer = styled.div`
@@ -106,7 +107,7 @@ export const FooterContactWrap = styled.div`
   padding-bottom: 24px;
 `;
 
-export const FooterContactLink = styled.text`
+export const FooterContactLink = styled(LinkHref)`
   color: #fff;
   text-decoration: none;
   margin-bottom: 18px;

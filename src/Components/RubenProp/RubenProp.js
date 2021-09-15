@@ -19,7 +19,7 @@ const RubenProp = () => {
     <PropsContainer>
       <PropsContentContainer>
         <PropsTextWrap>
-          <SectionHeading>A Brigther Future for Our Province</SectionHeading>
+          <SectionHeading>A Brighter Future for Our Province</SectionHeading>
           <SectionSubHeading>
             Dr. Ruben promises to bring passion for Saskatchewan that is fueled
             by his desire to create an even brighter future for the people of

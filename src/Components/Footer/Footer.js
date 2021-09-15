@@ -35,10 +35,16 @@ const Footer = () => {
           />
         </FooterLogoWrap>
         <FooterSocialWrap>
-          <FooterSocial>
+          <FooterSocial
+            to={{ pathname: "https://www.facebook.com/DrRubenRajakumar" }}
+            target="_blank"
+          >
             <FaFacebookSquare size={40} />
           </FooterSocial>
-          <FooterSocial>
+          <FooterSocial
+            to={{ pathname: "https://www.instagram.com/rubenrajakumar/" }}
+            target="_blank"
+          >
             <FaInstagramSquare size={40} />
           </FooterSocial>
           <FooterSocial>
@@ -46,10 +52,18 @@ const Footer = () => {
           </FooterSocial>
         </FooterSocialWrap>
         <FooterContactWrap>
-          <FooterContactLink to="mailto:ruben.rajakumar@shaw.ca">
-            Email: ruben.rajakumar@shaw.ca
+          <FooterContactLink
+            to={{ pathname: "mailto:info@rubenrajakumar.ca" }}
+            target="_blank"
+          >
+            Email: info@rubenrajakumar
           </FooterContactLink>
-          <FooterContactLink>Phone number: 306-954-6829 </FooterContactLink>
+          <FooterContactLink
+            to={{ pathname: "tel:306-954-6829" }}
+            target="_blank"
+          >
+            Phone number: 306-954-6829{" "}
+          </FooterContactLink>
           <FooterContactLink>Fax number: 306-956-2501</FooterContactLink>
         </FooterContactWrap>
         <FooterLinksWrap>
